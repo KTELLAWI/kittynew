@@ -105,7 +105,7 @@ class _AppInitState extends BaseScreen<AppInit> {
               remapCategories: appModel.remapCategories,
             ),
             brandModel.getBrands(),
-            listBlogModel.getBlogs(),
+            // listBlogModel.getBlogs(),
           ];
 
           await Future.wait(highPriorityRequests);

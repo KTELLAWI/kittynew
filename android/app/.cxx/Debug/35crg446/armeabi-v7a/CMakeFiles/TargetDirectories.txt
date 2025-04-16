@@ -1,0 +1,2 @@
+/Users/m1/kittynew/android/app/.cxx/Debug/35crg446/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/m1/kittynew/android/app/.cxx/Debug/35crg446/armeabi-v7a/CMakeFiles/rebuild_cache.dir

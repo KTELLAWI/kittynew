@@ -16,7 +16,7 @@ dependencies:
     sdk: flutter
 
   inspireui: 2.2.7
-  flux_ui: 0.0.5f
+  flux_ui: 0.0.5
 
   flux_localization:
     path: packages/flux_localization

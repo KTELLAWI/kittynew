@@ -9,12 +9,6 @@ allprojects {
         google()
         mavenCentral()
 
-<<<<<<< HEAD
-         // Zoho SalesIQ Mobilisten
-//         maven {
-//             url 'https://maven.zohodl.com'
-//         }
-=======
         // // Zoho SalesIQ Mobilisten
         // maven {
         //     url 'https://maven.zohodl.com'
@@ -23,7 +17,6 @@ allprojects {
         maven {
             url  "https://phonepe.mycloudrepo.io/public/repositories/phonepe-intentsdk-android"
         }
->>>>>>> e15e4e63fca3ef2855b079ce5146abb54c310191
     }
 }
 
