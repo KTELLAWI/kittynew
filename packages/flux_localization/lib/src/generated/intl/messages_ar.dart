@@ -684,7 +684,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "يرجى تحديد موقعك على الخريطة في الخطوة السابقة، أو الاتصال بنا إذا كنت بحاجة إلى مساعدة",
     ),
     "emptyUsername": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم/البريد الإلكتروني فارغ",
+      "البريد الإلكتروني فارغ",
     ),
     "emptyWishlist": MessageLookupByLibrary.simpleMessage(
       "قائمة الرغبات فارغة",
@@ -726,7 +726,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "أدخل بريدك الإلكتروني",
     ),
     "enterYourEmailOrUsername": MessageLookupByLibrary.simpleMessage(
-      "أدخل بريدك الإلكتروني أو اسم المستخدم",
+      "أدخل بريدك الإلكتروني",
     ),
     "enterYourFirstName": MessageLookupByLibrary.simpleMessage(
       "أدخل اسمك الأول",
@@ -747,7 +747,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "أدخل رقم هاتفك",
     ),
     "enterYourUsername": MessageLookupByLibrary.simpleMessage(
-      "أدخل اسم المستخدم",
+      "أدخل البريد الالكتروني",
     ),
     "error": m21,
     "errorAmountTransfer": MessageLookupByLibrary.simpleMessage(
@@ -1872,18 +1872,18 @@ class MessageLookup extends MessageLookupByLibrary {
       "تم حظر المستخدم",
     ),
     "userNameInCorrect": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم أو كلمة المرور غير صحيحة",
+      "البريد الالكتروني أو كلمة المرور غير صحيحة",
     ),
     "userNotFound": MessageLookupByLibrary.simpleMessage("المستخدم غير موجود"),
-    "username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
+    "username": MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
     "usernameAlreadyInUse": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم مستخدم بالفعل!",
+      "البرسد الالكتروني مستخدم بالفعل!",
     ),
     "usernameAndPasswordRequired": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم وكلمة المرور مطلوبان",
+      "البريد الالكتروني وكلمة المرور مطلوبان",
     ),
     "usernameInvalid": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم غير صالح",
+      "البريد الالكتروني غير صالح",
     ),
     "usernameIsRequired": MessageLookupByLibrary.simpleMessage(
       "اسم المستخدم مطلوب",
@@ -2025,7 +2025,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "منتجك قيد المراجعة",
     ),
     "yourUsernameEmail": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم أو البريد الإلكتروني",
+      " البريد الإلكتروني",
     ),
     "zipCode": MessageLookupByLibrary.simpleMessage("الرمز البريدي"),
     "zipCodeIsRequired": MessageLookupByLibrary.simpleMessage(
