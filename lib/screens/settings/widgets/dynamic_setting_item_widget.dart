@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flux_localization/flux_localization.dart';
 import 'package:provider/provider.dart';
+import '../../pages/static_page.dart';
 
 import '../../../common/config.dart';
 import '../../../common/config/configuration_utils.dart';
@@ -59,6 +60,7 @@ class _DynamicSettingItemWidgetState extends State<DynamicSettingItemWidget>
     final isVendorAndDeliverySupported = ServerConfig().isVendorType() ||
         (ServerConfig().typeName == 'woo' && ServerConfig().platform == 'woo');
     final isVender = widget.user?.isVender ?? false;
+    final offerList= Provider.of<AppModel>(context,listen:false).appConfig!.jsonData!;
 
     var item = subGeneralSetting[widget.type];
 
@@ -369,21 +371,66 @@ class _DynamicSettingItemWidgetState extends State<DynamicSettingItemWidget>
           onTap = showRateMyApp;
           break;
         }
-      case 'privacy':
+       case 'privacy':
         {
           icon = CupertinoIcons.doc_text;
-          title = S.of(context).privacyAndTerm;
-          onTap = () => onTapOpenPrivacy(context, privacy: item);
+          title = S.of(context).agreeWithPrivacy;
+          onTap = () {
+            final privacy = subGeneralSetting['privacy'];
+            final pageId = privacy?.pageId ??
+                (privacy?.webUrl == null
+                    ? kAdvanceConfig.privacyPoliciesPageId
+                    : null);
+            String? pageUrl =
+                privacy?.webUrl ?? kAdvanceConfig.privacyPoliciesPageUrl;
+                   Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => StaticPage(
+                       data: offerList['privacyData']
+              
+                      
+                    ),
+                  ));
+           
+          };
           break;
         }
-      case 'about':
+      //   {
+      //     icon = CupertinoIcons.doc_text;
+      //     title = S.of(context).privacyAndTerm;
+      //     onTap = () => onTapOpenPrivacy(context, privacy: item);
+      //     break;
+      //   }
+      // case 'about':
+      //   {
+      //     icon = CupertinoIcons.info;
+      //     title = S.of(context).aboutUs;
+      //     onTap = () => openAboutUS(context, about: item);
+      //     break;
+      //   }
+  case 'about':
         {
           icon = CupertinoIcons.info;
           title = S.of(context).aboutUs;
-          onTap = () => openAboutUS(context, about: item);
+          onTap = () {
+            final about = subGeneralSetting['about'];
+            final aboutUrl = about?.webUrl ?? SettingConstants.aboutUsUrl;
+
+         
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => StaticPage(
+                       data: offerList['aboutData']
+                      
+                      
+                    ),
+                  ));
+           
+          };
           break;
         }
-
       case 'post':
         {
           if (widget.user != null) {

@@ -1001,6 +1001,7 @@ abstract class BaseFrameworks {
     bool? isShowCountDown = false,
     int? countDown = 0,
     Axis axisType = Axis.horizontal,
+    bool showBadge=false,
   }) {
     if (hideProductPrice(context, product)) return const SizedBox();
     if (['variable-subscription', 'subscription'].contains(product.type)) {
@@ -1014,6 +1015,7 @@ abstract class BaseFrameworks {
       isShowCountDown: isShowCountDown,
       countDown: countDown,
       axisType: axisType,
+      showBadge:showBadge
     );
   }
 

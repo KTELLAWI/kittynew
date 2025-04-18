@@ -6,6 +6,8 @@ import '../../common/constants.dart';
 import '../../modules/dynamic_layout/config/icon/icon_config_extension.dart';
 import 'chat_mixin.dart';
 import 'scale_animation_mixin.dart';
+import 'package:provider/provider.dart';
+import '../../../models/index.dart';
 
 class BottomSheetSmartChat extends StatefulWidget {
   const BottomSheetSmartChat({super.key});
@@ -19,15 +21,21 @@ class _BottomSheetSmartChatState extends State<BottomSheetSmartChat>
   @override
   Widget build(BuildContext context) {
     printLog('[build SmartChat]');
+    final chatList= Provider.of<AppModel>(context,listen:false).appConfig!.jsonData!['smartChat']!;
 
     final list = supportedSmartChatOptions;
     if (list.isEmpty) return const SizedBox();
-
+    Map< String,dynamic> listo= {
+      "app": chatList["app"],
+      "description": chatList["description"],
+      "iconData": Icons.chat
+  };
     if (list.length == 1) {
       final option = list[0];
+       printLog(option);
       return Align(
-        alignment:
-            Tools.isRTL(context) ? Alignment.bottomLeft : Alignment.bottomRight,
+        alignment:Alignment.bottomCenter,
+            // Tools.isRTL(context) ? Alignment.bottomLeft : Alignment.bottomRight,
         child: Padding(
           padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, bottomPadding),
           child: FloatingActionButton(
@@ -35,7 +43,7 @@ class _BottomSheetSmartChatState extends State<BottomSheetSmartChat>
             heroTag: null,
             backgroundColor: Theme.of(context).colorScheme.surface,
             child: buildItemIcon(
-              option,
+              listo,
               32,
               Theme.of(context).primaryColor,
             ),
@@ -45,8 +53,8 @@ class _BottomSheetSmartChatState extends State<BottomSheetSmartChat>
     }
 
     return Align(
-      alignment:
-          Tools.isRTL(context) ? Alignment.bottomLeft : Alignment.bottomRight,
+      alignment:Alignment.bottomCenter,
+          // Tools.isRTL(context) ? Alignment.bottomLeft : Alignment.bottomRight,
       child: Padding(
         padding: EdgeInsets.fromLTRB(14.0, 14.0, 14.0, bottomPadding),
         child: ScaleTransition(

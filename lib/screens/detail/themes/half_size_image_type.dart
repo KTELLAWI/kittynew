@@ -210,7 +210,7 @@ class _HalfSizeLayoutState extends State<HalfSizeLayout>
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         if (!(widget.product?.isGroupedProduct ?? false))
-                          ProductTitle(widget.product),
+                          // ProductTitle(widget.product),
                         if (Services().widget.enableShoppingCart(
                             widget.product?.copyWith(isRestricted: false)))
                           ProductCommonInfo(

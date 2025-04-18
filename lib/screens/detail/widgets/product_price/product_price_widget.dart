@@ -17,13 +17,14 @@ class ProductPrice extends StatelessWidget {
   final bool? isShowCountDown;
   final int? countDown;
   final Axis axisType;
-
+  final bool showBadge; 
   const ProductPrice({
     required this.product,
     this.priceData,
     this.isShowCountDown = false,
     this.countDown = 0,
     this.axisType = Axis.horizontal,
+    this.showBadge=false
   });
 
   bool get shouldShowCountDown {
@@ -92,9 +93,58 @@ class ProductPrice extends StatelessWidget {
     isOnSale =
         isOnSale && !Services().widget.hideProductPrice(context, product);
 
-    return isOnSale
+        return Column(
+  crossAxisAlignment: CrossAxisAlignment.start,
+  children: [
+    isOnSale
         ? _buildSalePrice(context, priceString, style)
-        : Text(priceString, style: style);
+        : Text(priceString, style: style),
+    const SizedBox(height: 10),
+  showBadge ?
+  Container(
+      padding: const EdgeInsets.all(8.0),
+      decoration: BoxDecoration(
+        border: Border.all(width: 1, color: Colors.grey),
+        borderRadius: BorderRadius.circular(8.0),
+      ),
+      child: Row(
+        children: [
+        Flexible(
+           child: 
+            Text(
+              "قسم فاتورتك حتى 4 دفعات شهرية بقيمة $priceString ر.س بدون فوائد بدون أية رسوم تأخير",
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+          ),
+          const SizedBox(width: 8),
+          SizedBox(
+  width: 120,
+       child:   Column(
+          mainAxisSize: MainAxisSize.min,
+
+            children: [
+              Image.asset(
+                'images/tammars.png',
+                width: 80,
+                height: 40,
+                fit: BoxFit.fill,
+              ),
+              const SizedBox(height: 1),
+              Image.asset(
+                'images/tabbi.png', // Optional: Add another local image here too
+                width: 80,
+                height: 40,
+                fit: BoxFit.fill,
+              ),
+            ],
+          ),
+          )
+        ],
+      ),
+    ) :SizedBox(),
+  ],
+);
   }
 
   Widget _buildSalePrice(

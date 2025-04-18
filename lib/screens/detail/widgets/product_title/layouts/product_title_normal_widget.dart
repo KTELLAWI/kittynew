@@ -25,7 +25,8 @@ class ProductTitleNormalWidget extends StatelessWidget {
     final productAverageRating = product?.averageRating;
     final productRatingCount = product?.ratingCount;
 
-    return Column(
+    return 
+    Column(
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
@@ -88,6 +89,7 @@ class ProductTitleNormalWidget extends StatelessWidget {
                 priceData,
                 isShowCountDown: priceData.isShowCountDown,
                 countDown: priceData.countDown,
+                showBadge:true,
               ),
         Row(
           textBaseline: TextBaseline.alphabetic,
@@ -123,6 +125,7 @@ class ProductTitleNormalWidget extends StatelessWidget {
                   width: 160,
                 ),
               ),
+         
           ],
         ),
       ],
