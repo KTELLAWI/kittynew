@@ -125,14 +125,14 @@ class ProductPrice extends StatelessWidget {
 
             children: [
               Image.asset(
-                'images/tammars.png',
+                'assets/images/tammars.png',
                 width: 80,
                 height: 40,
                 fit: BoxFit.fill,
               ),
               const SizedBox(height: 1),
               Image.asset(
-                'images/tabbi.png', // Optional: Add another local image here too
+                'assets/images/tabbi.png', // Optional: Add another local image here too
                 width: 80,
                 height: 40,
                 fit: BoxFit.fill,
