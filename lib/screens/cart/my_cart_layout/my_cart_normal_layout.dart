@@ -116,7 +116,7 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
                       final style1 = TextStyle(
   color: Colors.white,
   fontSize: 14,
-  fontFamily:"SaudiRiyal"
+  fontFamily:"SaudiRiyal",
   fontWeight: FontWeight.w600,
 );
 
