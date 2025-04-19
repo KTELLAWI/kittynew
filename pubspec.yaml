@@ -300,9 +300,9 @@ flutter:
     - family: SaudiRiyal
       fonts:
         - asset: assets/fonts/saudi_riyal.ttf
-    # - family: riyal1
-  #     fonts:
-  #       - asset: assets/fonts/OpenSans-Regular-riyal.ttf
+    - family: cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Light.ttf
   #   - family: riyal2
   #     fonts:
   #       - asset: assets/fonts/GEDINKUM-BOLD-riyal.ttf       

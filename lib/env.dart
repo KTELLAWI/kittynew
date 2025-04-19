@@ -1748,7 +1748,7 @@
 // };
 // ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars final 
           Map<String, dynamic> environment = {
-  "appConfig": "lib/config/config_en.json",
+  "appConfig": "https://ap-apps.com/matjarkitty/config_ar.json",
   "serverConfig": {
     "url": "https://matjarkitty.com/",
     "type": "shopify",
