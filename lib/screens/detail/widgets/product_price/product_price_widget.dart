@@ -114,7 +114,7 @@ class ProductPrice extends StatelessWidget {
         // Expanded(
         //    child: 
             Text(
-              "قسم فاتورتك حتى 4 دفعات شهرية بقيمة $priceString  بدون فوائد بدون أية رسوم تأخير",
+              "قسم فاتورتك حتى 4 دفعات شهرية بقيمة $priceString  بدون فوائد بدون أي رسوم تأخير",
               // textAlign: TextAlign.start,
               style: Theme.of(context).textTheme.labelSmall?.copyWith(fontWeight: FontWeight.w800, fontSize: 11.0),
             ),
