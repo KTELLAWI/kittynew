@@ -217,21 +217,25 @@ class _QuantitySelectionState extends State<QuantitySelection> {
         step: widget.quantityStep,
       );
 
-      switch (widget.style) {
-        case QuantitySelectionStyle.style03:
-        case QuantitySelectionStyle.style01:
-          return QuantitySelectionStyle01(
+      // switch (widget.style) {
+        // case QuantitySelectionStyle.style03:
+        // case QuantitySelectionStyle.style01:
+        //   return QuantitySelectionStyle01(
+        //     stateUI,
+        //     onShowOption: () => _showOptions(context),
+        //     style: widget.style,
+        //   );
+      //   case QuantitySelectionStyle.style02:
+      //     return QuantitySelectionStyle02(
+      //       stateUI,
+      //       onShowOption: () => _showOptions(context),
+      //     );
+      //   default:
+      // }
+      return QuantitySelectionStyle02(
             stateUI,
             onShowOption: () => _showOptions(context),
-            style: widget.style,
           );
-        case QuantitySelectionStyle.style02:
-          return QuantitySelectionStyle02(
-            stateUI,
-            onShowOption: () => _showOptions(context),
-          );
-        default:
-      }
     }
 
     return GestureDetector(

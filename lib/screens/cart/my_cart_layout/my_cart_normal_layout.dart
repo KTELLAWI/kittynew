@@ -63,7 +63,7 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
           child: Scaffold(
             backgroundColor: Theme.of(context).colorScheme.surface,
             floatingActionButtonLocation:
-                kAdvanceConfig.floatingCartCheckoutButtonLocation,
+                FloatingActionButtonLocation.centerFloat,
             floatingActionButton:
                 Selector<CartModel, (bool, Map<String?, Product?>, bool)>(
               selector: (_, cartModel) => (
@@ -100,11 +100,11 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
                     fontWeight: FontWeight.w600,
                   ),
                   extendedPadding:
-                      const EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+                      const EdgeInsets.symmetric(vertical: 4, horizontal: 10),
                   backgroundColor: backgroundButton,
                   foregroundColor: Colors.white,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(9.0),
+                    borderRadius: BorderRadius.circular(12.0),
                   ),
                   materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   label: Selector<CartModel, int>(
@@ -113,6 +113,13 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
                       final colorBody =
                           backgroundButton.getColorBasedOnBackground;
                       final style = TextStyle(color: colorBody);
+                      final style1 = TextStyle(
+  color: colorBody,
+  fontFamily: 'Cairo',
+  fontSize: 14,
+  fontWeight: FontWeight.w600,
+);
+
 
                       return Row(
                         children: [
@@ -120,15 +127,15 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
                               ? (isLoading
                                   ? Text(
                                       S.of(context).loading.toUpperCase(),
-                                      style: style,
+                                      style: style1,
                                     )
                                   : Text(
                                       S.of(context).checkout.toUpperCase(),
-                                      style: style,
+                                      style: style1,
                                     ))
                               : Text(
                                   S.of(context).startShopping.toUpperCase(),
-                                  style: style,
+                                  style: style1,
                                 ),
                           const SizedBox(width: 3),
                           Icon(

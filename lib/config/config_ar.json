@@ -1,1312 +1,1319 @@
 {
-  "HorizonLayout": [
-      {
-          "showCart": true,
-          "layout": "logo",
-          "showMenu": false,
-          "showNotification": true,
-          "menuIcon": {
-              "fontFamily": "CupertinoIcons",
-              "name": "circle_grid_3x3_fill"
-          },
-          "showLogo": true,
-          "showSearch": true
-      },
-      {
-          "layout": "bannerImage",
-          "design": "swiper",
-          "isSlider": true,
-          "autoPlay": true,
-          "items": [
-            
-                  {
-                "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/324a07c0ddc7fdb672cd2b7145c01105_61ff20a2-7e6e-4143-b526-e4479717a35b.png?v=1711405114",
-                "padding": 8.0,
-                "featured": true,
-                "category": "gid://shopify/Collection/453699371297"
-              },
-        
-              {
-                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/8af799f8f678f6d088e0c2f292fdc50f_e4c648c5-560b-4624-88a1-4b13826919b4.png?v=1735752759",
-                  "showSubcategory": false,
-                  "bannerWithProduct": false,
-                  "defaultShowProduct": false,
-                  "products": []
-              }
-          ],
-          "marginBottom": 0,
-          "marginRight": null,
-          "marginTop": 0,
-          "radius": 2,
-          "padding": 0,
-          "enableParallax": false,
-          "parallaxImageRatio": 1.2,
-          "isHorizontal": false,
-          "intervalTime": 1,
-          "showNumber": false,
-          "isBlur": false,
-          "showBackground": false,
-          "upHeight": 0,
-          "parallax": false
-      },
-      {
-          "marginBottom": 0,
-          "marginRight": 10,
-          "parallax": false,
-          "marginTop": 10,
-          "enableParallax": false,
-          "items": [
-              {
-                  "defaultShowProduct": false,
-                  "padding": 5,
-                  "category": "gid://shopify/Collection/453699141921",
-                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/355063520e925444ac6d380ec1aa3df2.png?v=1711400500",
-                  "showSubcategory": false,
-                  "products": [],
-                  "bannerWithProduct": false
-              },
-              {
-                  "padding": 5,
-                  "defaultShowProduct": false,
-                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/fbed82fb56b8a91cb8f3b6919babc5b2.png?v=1711400500",
-                  "showSubcategory": false,
-                  "bannerWithProduct": false,
-                  "products": [],
+    "HorizonLayout": [
+        {
+            "showCart": true,
+            "layout": "logo",
+            "showMenu": false,
+            "showNotification": true,
+            "menuIcon": {
+                "fontFamily": "CupertinoIcons",
+                "name": "circle_grid_3x3_fill"
+            },
+            "showLogo": true,
+            "showSearch": true
+        },
+        {
+            "layout": "bannerImage",
+            "design": "swiper",
+            "isSlider": true,
+            "autoPlay": true,
+            "items": [
+              
+                    {
+                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/324a07c0ddc7fdb672cd2b7145c01105_61ff20a2-7e6e-4143-b526-e4479717a35b.png?v=1711405114",
+                  "padding": 8.0,
+                  "featured": true,
                   "category": "gid://shopify/Collection/453699371297"
-              }
-          ],
-          "layout": "bannerImage",
-          "parallaxImageRatio": 1.2,
-          "isHorizontal": false,
-          "design": "static",
-          "fit": "fitWidth",
-          "marginLeft": 10
-      },
-      {
-          "marginBottom": 0,
-          "design": "static",
-          "marginTop": 10,
-          "enableParallax": false,
-          "isHorizontal": false,
-          "fit": "fitWidth",
-          "layout": "bannerImage",
-          "marginRight": 10,
-          "parallaxImageRatio": 1.2,
-          "items": [
-              {
-                  "category": "gid://shopify/Collection/453699272993",
-                  "showSubcategory": false,
-                  "defaultShowProduct": false,
-                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/a6501fac215b8381cc40c4aac5d9c73d.png?v=1711400500",
-                  "padding": 5,
-                  "products": [],
-                  "bannerWithProduct": false
-              },
-              {
-                  "defaultShowProduct": false,
-                  "category": "gid://shopify/Collection/453699174689",
-                  "showSubcategory": false,
-                  "products": [],
-                  "bannerWithProduct": false,
-                  "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/b9362834fc7268562bc966d643974cf9.png?v=1711400499",
-                  "padding": 5
-              }
-          ],
-          "parallax": false,
-          "marginLeft": 10
-      },
-      {
-          "isSafeArea": true,
-          "showSearch": false,
-          "usePrimaryColor": true,
-          "borderInput": false,
-          "title": "البرندات الاكثر طلباً",
-          "type": "static",
-          "textColor": "ff000000",
-          "alignment": "center",
-          "fontWeight": 800,
-          "fontSize": 22,
-          "textOpacity": 1,
-          "marginLeft": 0,
-          "marginRight": 0,
-          "marginBottom": 5,
-          "marginTop": 5,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 0,
-          "paddingBottom": 0,
-          "height": 42.5,
-          "rotate": [],
-          "minWidth": 0,
-          "layout": "header_text"
-      },
-      {
-          "layout": "category",
-          "type": "image",
-          "wrap": true,
-          "showShortDescription": true,
-          "size": 1,
-          "radius": 0,
-          "spacing": 12,
-          "items": [
-              {
-                  "category": "gid://shopify/Collection/464209150241",
-                  "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_6_732e52b6-693a-4740-a695-be2a042d7932.png?v=1691513139",
-                  "showText": false,
-                  "originalColor": true,
-                  "keepDefaultTitle": false,
-                  "showDescription": false,
-                  "title": "Applaws"
-              },
-              {
-                  "category": "gid://shopify/Collection/464209215777",
-                  "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_3_2d85fded-1a52-4ac4-803d-5f6a2dc63917.png?v=1691513139",
-                  "showText": false,
-                  "originalColor": true,
-                  "keepDefaultTitle": false,
-                  "showDescription": false,
-                  "title": "Schesir"
-              },
-              {
-                  "category": "gid://shopify/Collection/464209412385",
-                  "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_bf96e8d0-3294-41bd-9d3c-0606e77f32a2.png?v=1691513139",
-                  "showText": false,
-                  "originalColor": true,
-                  "keepDefaultTitle": false,
-                  "showDescription": false,
-                  "title": "Kit Cat"
-              },
-              {
-                  "category": "gid://shopify/Collection/464209314081",
-                  "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_2_22e94218-eb7d-4151-a42b-81840b7b05a8.png?v=1691513139",
-                  "showText": false,
-                  "originalColor": true,
-                  "keepDefaultTitle": false,
-                  "showDescription": false,
-                  "title": "Zolux"
-              }
-          ],
-          "line": false,
-          "marginLeft": 10,
-          "marginRight": 10,
-          "marginTop": 0,
-          "marginBottom": 10,
-          "paddingX": 0,
-          "paddingY": 0,
-          "marginX": 0,
-          "marginY": 0,
-          "hideTitle": false,
-          "noBackground": false,
-          "imageBorderWidth": 0,
-          "imageBorderColor": "ffe61a00",
-          "imageBorderStyle": "dot",
-          "imageSpacing": 0,
-          "labelFontSize": 14,
-          "border": 0,
-          "enableBorder": false,
-          "textAlignment": "topCenter",
-          "imageBoxFit": "contain",
-          "columns": 2,
-          "itemSize": {
-              "width": 600,
-              "height": 118
-          }
-      },
-      {
-          "hidePrice": false,
-          "hideTitle": false,
-          "hideStore": false,
-          "layout": "threeColumn",
-          "showQuantity": false,
-          "hideEmptyProductLayout": false,
-          "imageRatio": 1.2,
-          "marginBGP": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0
-          },
-          "showCartIcon": false,
-          "showHeart": false,
-          "cardDesign": "card",
-          "borderRadius": 9,
-          "rows": 1,
-          "hMargin": 6,
-          "hPadding": 9,
-          "vPadding": 2,
-          "hideEmptyProductListRating": false,
-          "enableBottomAddToCart": false,
-          "featured": false,
-          "image": "",
-          "showOnlyImage": false,
-          "showStockStatus": false,
-          "paddingBGP": {
-              "left": 0,
-              "right": 0,
-              "top": 14.814814814814842,
-              "bottom": 0
-          },
-          "backgroundBoxFit": "cover",
-          "parallaxImageRatio": 1.2,
-          "showCartButtonWithQuantity": false,
-          "showCartButton": true,
-          "isSnapping": false,
-          "enableRating": true,
-          "imageBoxfit": "cover",
-          "vMargin": 0,
-          "cartIconRadius": 9,
-          "onSale": false,
-          "category": "gid://shopify/Collection/453699141921",
-          "columns": 0,
-          "parallax": false,
-          "spaceWidth": 108.33333333333337,
-          "showCountDown": false,
-          "backgroundRadius": 0,
-          "showCartIconColor": false,
-          "name": "طعام رطب",
-          "backgroundHeight": 287,
-          "productListItemHeight": 125,
-          "enableAutoSliding": false,
-          "productType": false
-      },
-      {
-          "backgroundRadius": 0,
-          "columns": 0,
-          "backgroundBoxFit": "cover",
-          "borderRadius": 9,
-          "enableRating": true,
-          "category": "gid://shopify/Collection/453699174689",
-          "backgroundHeight": 287,
-          "cartIconRadius": 9,
-          "onSale": false,
-          "showCartIconColor": false,
-          "hideStore": false,
-          "spaceWidth": 108.33333333333337,
-          "parallax": true,
-          "showCartButton": true,
-          "paddingBGP": {
-              "left": 0,
-              "right": 0,
-              "top": 14.814814814814842,
-              "bottom": 0
-          },
-          "enableBottomAddToCart": false,
-          "hideTitle": false,
-          "isSnapping": false,
-          "hideEmptyProductLayout": false,
-          "showCountDown": false,
-          "showCartButtonWithQuantity": false,
-          "showHeart": false,
-          "hideEmptyProductListRating": false,
-          "imageRatio": 1.2,
-          "rows": 1,
-          "showOnlyImage": false,
-          "imageBoxfit": "contain",
-          "hPadding": 9,
-          "vPadding": 2,
-          "hidePrice": false,
-          "marginBGP": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0
-          },
-          "image": "",
-          "showQuantity": false,
-          "layout": "threeColumn",
-          "cardDesign": "card",
-          "hMargin": 6,
-          "vMargin": 0,
-          "parallaxImageRatio": 1.2,
-          "showCartIcon": false,
-          "featured": false,
-          "showStockStatus": false,
-          "name": " طعام جاف",
-          "productListItemHeight": 125,
-          "enableAutoSliding": false,
-          "productType": false
-      }
-  ],
-  "aboutData": {
-      "id": 3,
-      "container": {
-          "height": 0.25,
-        
-          "header": {
-              "align": {
-                  "x": 0,
-                  "y": -0.8
-              },
-              "padding": {
-                  "horizontal": 0,
-                  "vertical": 0
-              },
-              "text": "من نحن",
-              "subHeader": ""
-          }
-      },
-      "description": "متجر كيتي، متجر متخصص بكافة أغذية ومستلزمات القطط في المملكة العربية السعودية، حيث نعمل من أجل سعادة كافة مربي الحيوانات الأليفة، بتوفير منتجات صحية عالية الجودة لقططهم المنزلية، لا تذهب بعيدا، فسواء كنت تبحث عن أغذية ومكافآت قطط متوازنة ولذيذة، أو إذا أردت توفير لعب وخداشات ومستلزمات قطط أخرى، ستجد كافة احتياجات حيوانك الأليف في متجر كيتي.  ",
-      "background": "#D4F1E5"
-  },
-  "privacyData": {
-      "id": 3,
-      "container": {
-          "height": 0.25,
-       
-          "header": {
-              "align": {
-                  "x": 0,
-                  "y": -0.8
-              },
-              "padding": {
-                  "horizontal": 0,
-                  "vertical": 0
-              },
-              "text": "سياسة الخصوصية",
-              "subHeader": ""
-          }
-      },
-      "description": "بيان سياسة الخصوصية هذا يوضح كيف يستخدم و يحمي متجر كيني أي معلومات يتم جمعها عند استخدام هذا الموقع. ويلتزم متجر كيتي بضمان حماية خصوصيتك ومعلوماتك. حيث سوف يطلب منك تقديم بعض المعلومات التي يمكن التعرف من خلالها على هويتك عند استخدام هذا الموقع، ولن يتم استخدام هذه المعلومات إلا وفقاً لبيان سياسة الخصوصية. علماَ أنه قد تتغير سياسة الخصوصية لمتجر كيتى من وقت لآخر عن طريق تحديث هذه الصفحة فيجبعليك مراجعة هذه الصفحة من وقت لآخر للتأكد من مناسبة هذه التغييرات",
-      "background": "#D4F1E5"
-  },
-  "smartChat": {
-      "app": "https://wa.me/966501784877",
-      "description": "WhatsApp",
-      "iconData": "Icons.home_work_outlined"
-  },
-  "Setting": {
-      "TabBarConfig": {
-          "boxShadow": {
-              "spreadRadius": 10,
-              "colorOpacity": 0.25,
-              "blurRadius": 10,
-              "x": 0,
-              "y": 0
-          },
-          "enableOnTop": false,
-          "color": null,
-          "radiusTopLeft": 0,
-          "paddingRight": 0,
-          "radiusTopRight": 0,
-          "TabBarIndicator": {
-              "strokeWidth": 0,
-              "color": "ffcc0071",
-              "horizontalPadding": 0,
-              "topRightRadius": 0,
-              "tabPosition": "top",
-              "bottomRightRadius": 9.988863169703269,
-              "bottomLeftRadius": 9.980371609191021,
-              "topLeftRadius": 0,
-              "paintingStyle": "fill",
-              "distanceFromCenter": 0,
-              "radius": 0,
-              "verticalPadding": 0,
-              "height": 0
-          },
-          "showMinimize": false,
-          "marginRight": 0,
-          "enableDivider": true,
-          "paddingBottom": 0,
-          "indicatorStyle": "material",
-          "enable": true,
-          "radiusBottomRight": 0,
-          "iconSize": 23.025228226675463,
-          "showFloatingClip": true,
-          "paddingTop": 0,
-          "isSafeArea": true,
-          "TabBarFloating": {
-              "elevation": 2.005172228538149,
-              "color": "ffcc0071",
-              "width": 50,
-              "floatingType": "rectangle",
-              "location": "startDocked",
-              "isCoverMode": false,
-              "position": 0,
-              "notchMargin": 4,
-              "radius": 50,
-              "height": 50
-          },
-          "showFloating": true,
-          "colorActiveIcon": "ff000000",
-          "colorCart": "fffe2060",
-          "radiusBottomLeft": 0,
-          "alwaysShowTabBar": false,
-          "marginLeft": 0,
-          "colorIcon": "ffcc0071",
-          "marginBottom": 0,
-          "paddingLeft": 0,
-          "marginTop": 0
-      },
-      "FontFamily": "Cairo",
-      "FontHeader": "Cairo",
-      "ProductDetail": "simpleType",
-      "useMaterial3": false,
-      "MainColor": "ffcc0071",
-      "ShowChat": true,
-      "AgeRestriction": {
-          "enable": false,
-          "alwaysShowUponOpen": true,
-          "imageUrl": "",
-          "minimumAge": 21,
-          "hintMessage": "What is your year of birth?",
-          "useLogo": true,
-          "title": "Welcome to our shop\nYou must be 21 or older to enter",
-          "deniedMessage": "You are not of legal age to use this application",
-          "backgroundImageUrl": ""
-      },
-      "ProductListLayout": "list",
-      "SmartEngagementBanner": {
-          "popup": {
-              "closePosition": "topRight",
-              "updatedTime": 1661314494281,
-              "data": {
-                  "parallax": false,
-                  "enableParallax": false,
-                  "isHorizontal": false,
-                  "marginLeft": null,
-                  "layout": "bannerImage",
-                  "fit": "fitHeight",
-                  "marginRight": null,
-                  "parallaxImageRatio": 1.2,
-                  "design": "static",
-                  "marginBottom": 10,
-                  "items": [
-                      {
-                          "image": "https://i.imgur.com/ZL1LO75.png",
-                          "padding": 0,
-                          "bannerWithProduct": false,
-                          "showSubcategory": false,
-                          "category": "22",
-                          "defaultShowProduct": false,
-                          "products": []
-                      }
-                  ],
-                  "marginTop": 10,
-                  "key": "p2oq4zc4hg",
-                  "height": 0.45
-              },
-              "enable": false,
-              "alwaysShowUponOpen": true
-          },
-          "flexible": {
-              "canClose": true,
-              "data": {
-                  "layout": "button",
-                  "marginBottom": 0,
-                  "alignment": "topCenter",
-                  "items": [
-                      {
-                          "marginRight": 0,
-                          "textFontSize": 14,
-                          "image": "https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
-                          "useMaxWidth": true,
-                          "borderRadius": 2,
-                          "width": 100,
-                          "navigator": {
-                              "coupon": "blackf",
-                              "showSubcategory": false
-                          },
-                          "height": 80,
-                          "marginLeft": 0
-                      }
-                  ],
-                  "marginTop": 0
-              },
-              "enable": false,
-              "width": 100,
-              "canDrag": true,
-              "height": 100
-          },
-          "sticky": {
-              "data": {
-                  "parallax": false,
-                  "enableParallax": false,
-                  "isHorizontal": false,
-                  "marginLeft": 10,
-                  "layout": "bannerImage",
-                  "fit": "fitWidth",
-                  "marginRight": 10,
-                  "parallaxImageRatio": 1.2,
-                  "design": "static",
-                  "marginBottom": 10,
-                  "items": [
-                      {
-                          "image": "https://i.imgur.com/LUaEM3v.jpeg",
-                          "padding": 0,
-                          "coupon": "halfprice",
-                          "bannerWithProduct": false,
-                          "showSubcategory": false,
-                          "radius": 9,
-                          "defaultShowProduct": false,
-                          "products": []
-                      }
-                  ],
-                  "marginTop": 10,
-                  "key": "ga8oe39k5t",
-                  "height": 0.2
-              },
-              "enable": false
-          }
-      },
-      "StickyHeader": false
-  },
-  "TabBar": [
-      {
-          "layout": "home",
-          "fontFamily": "MaterialIcons",
-          "visible": true,
-          "fullscreen": false,
-          "pos": 100,
-          "defaultTab": true,
-          "icon": "home_filled"
-      },
-      {
-          "layout": "category",
-          "parallaxImageRatio": 1.2,
-          "images": {
-              "gid://shopify/Collection/456820818230": {
-                  "fontFamily": "CupertinoIcons",
-                  "name": "circle_grid_3x3_fill"
-              }
-          },
-          "fontFamily": "CupertinoIcons",
-          "remapCategories": [
+                },
           
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/453699141921"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/453699174689"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/493475889441"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/477872816417"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/493666435361"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/493474611489"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/453699371297"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/463784247585"
-              },
-                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/493475758369"
-              },
+                {
+                    "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/8af799f8f678f6d088e0c2f292fdc50f_e4c648c5-560b-4624-88a1-4b13826919b4.png?v=1735752759",
+                    "showSubcategory": false,
+                    "bannerWithProduct": false,
+                    "defaultShowProduct": false,
+                    "products": []
+                }
+            ],
+            "marginBottom": 0,
+            "marginRight": null,
+            "marginTop": 0,
+            "radius": 2,
+            "padding": 0,
+            "enableParallax": false,
+            "parallaxImageRatio": 1.2,
+            "isHorizontal": false,
+            "intervalTime": 1,
+            "showNumber": false,
+            "isBlur": false,
+            "showBackground": false,
+            "upHeight": 0,
+            "parallax": false
+        },
+        {
+            "marginBottom": 0,
+            "marginRight": 10,
+            "parallax": false,
+            "marginTop": 10,
+            "enableParallax": false,
+            "items": [
+                {
+                    "defaultShowProduct": false,
+                    "padding": 5,
+                    "category": "gid://shopify/Collection/453699141921",
+                    "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/355063520e925444ac6d380ec1aa3df2.png?v=1711400500",
+                    "showSubcategory": false,
+                    "products": [],
+                    "bannerWithProduct": false
+                },
+                {
+                    "padding": 5,
+                    "defaultShowProduct": false,
+                    "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/fbed82fb56b8a91cb8f3b6919babc5b2.png?v=1711400500",
+                    "showSubcategory": false,
+                    "bannerWithProduct": false,
+                    "products": [],
+                    "category": "gid://shopify/Collection/453699371297"
+                }
+            ],
+            "layout": "bannerImage",
+            "parallaxImageRatio": 1.2,
+            "isHorizontal": false,
+            "design": "static",
+            "fit": "fitWidth",
+            "marginLeft": 10
+        },
+        {
+            "marginBottom": 0,
+            "design": "static",
+            "marginTop": 10,
+            "enableParallax": false,
+            "isHorizontal": false,
+            "fit": "fitWidth",
+            "layout": "bannerImage",
+            "marginRight": 10,
+            "parallaxImageRatio": 1.2,
+            "items": [
+                {
+                    "category": "gid://shopify/Collection/453699272993",
+                    "showSubcategory": false,
+                    "defaultShowProduct": false,
+                    "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/a6501fac215b8381cc40c4aac5d9c73d.png?v=1711400500",
+                    "padding": 5,
+                    "products": [],
+                    "bannerWithProduct": false
+                },
+                {
+                    "defaultShowProduct": false,
+                    "category": "gid://shopify/Collection/453699174689",
+                    "showSubcategory": false,
+                    "products": [],
+                    "bannerWithProduct": false,
+                    "image": "https://cdn.shopify.com/s/files/1/0791/4104/4513/files/b9362834fc7268562bc966d643974cf9.png?v=1711400499",
+                    "padding": 5
+                }
+            ],
+            "parallax": false,
+            "marginLeft": 10
+        },
+        {
+            "isSafeArea": true,
+            "showSearch": false,
+            "usePrimaryColor": true,
+            "borderInput": false,
+            "title": "البرندات الاكثر طلباً",
+            "type": "static",
+            "textColor": "ff000000",
+            "alignment": "center",
+            "fontWeight": 800,
+            "fontSize": 22,
+            "textOpacity": 1,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "height": 42.5,
+            "rotate": [],
+            "minWidth": 0,
+            "layout": "header_text"
+        },
+        {
+            "layout": "category",
+            "type": "image",
+            "wrap": true,
+            "showShortDescription": true,
+            "size": 1,
+            "radius": 0,
+            "spacing": 12,
+            "items": [
+                {
+                    "category": "gid://shopify/Collection/464209150241",
+                    "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_6_732e52b6-693a-4740-a695-be2a042d7932.png?v=1691513139",
+                    "showText": false,
+                    "originalColor": true,
+                    "keepDefaultTitle": false,
+                    "showDescription": false,
+                    "title": "Applaws"
+                },
+                {
+                    "category": "gid://shopify/Collection/464209215777",
+                    "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_3_2d85fded-1a52-4ac4-803d-5f6a2dc63917.png?v=1691513139",
+                    "showText": false,
+                    "originalColor": true,
+                    "keepDefaultTitle": false,
+                    "showDescription": false,
+                    "title": "Schesir"
+                },
+                {
+                    "category": "gid://shopify/Collection/464209412385",
+                    "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_bf96e8d0-3294-41bd-9d3c-0606e77f32a2.png?v=1691513139",
+                    "showText": false,
+                    "originalColor": true,
+                    "keepDefaultTitle": false,
+                    "showDescription": false,
+                    "title": "Kit Cat"
+                },
+                {
+                    "category": "gid://shopify/Collection/464209314081",
+                    "image": "https://cdn.shopify.com/s/files/1/0667/8157/7441/files/1_copy_2_22e94218-eb7d-4151-a42b-81840b7b05a8.png?v=1691513139",
+                    "showText": false,
+                    "originalColor": true,
+                    "keepDefaultTitle": false,
+                    "showDescription": false,
+                    "title": "Zolux"
+                }
+            ],
+            "line": false,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 0,
+            "marginBottom": 10,
+            "paddingX": 0,
+            "paddingY": 0,
+            "marginX": 0,
+            "marginY": 0,
+            "hideTitle": false,
+            "noBackground": false,
+            "imageBorderWidth": 0,
+            "imageBorderColor": "ffe61a00",
+            "imageBorderStyle": "dot",
+            "imageSpacing": 0,
+            "labelFontSize": 14,
+            "border": 0,
+            "enableBorder": false,
+            "textAlignment": "topCenter",
+            "imageBoxFit": "contain",
+            "columns": 2,
+            "itemSize": {
+                "width": 600,
+                "height": 118
+            }
+        },
+        {
+            "hidePrice": false,
+            "hideTitle": false,
+            "hideStore": false,
+            "layout": "threeColumn",
+            "showQuantity": false,
+            "hideEmptyProductLayout": false,
+            "imageRatio": 1.2,
+            "marginBGP": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+            },
+            "showCartIcon": false,
+            "showHeart": false,
+            "cardDesign": "card",
+            "borderRadius": 8,
+            "rows": 1,
+            "hMargin": 6,
+            "hPadding": 9,
+            "vPadding": 2,
+            "hideEmptyProductListRating": false,
+            "enableBottomAddToCart": false,
+            "featured": false,
+            "image": "",
+            "showOnlyImage": false,
+            "showStockStatus": false,
+            "paddingBGP": {
+                "left": 0,
+                "right": 0,
+                "top": 14.814814814814842,
+                "bottom": 0
+            },
+            "backgroundBoxFit": "cover",
+            "parallaxImageRatio": 1.2,
+            "showCartButtonWithQuantity": false,
+            "showCartButton": true,
+            "isSnapping": false,
+            "enableRating": true,
+            "imageBoxfit": "cover",
+            "vMargin": 0,
+            "cartIconRadius": 9,
+            "onSale": false,
+            "category": "gid://shopify/Collection/453699141921",
+            "columns": 0,
+            "parallax": false,
+            "spaceWidth": 108.33333333333337,
+            "showCountDown": false,
+            "backgroundRadius": 0,
+            "showCartIconColor": false,
+            "name": "طعام رطب",
+            "backgroundHeight": 287,
+            "productListItemHeight": 125,
+            "enableAutoSliding": false,
+            "productType": false
+        },
+        {
+            "backgroundRadius": 0,
+            "columns": 0,
+            "backgroundBoxFit": "cover",
+            "borderRadius": 8,
+            "enableRating": true,
+            "category": "gid://shopify/Collection/453699174689",
+            "backgroundHeight": 287,
+            "cartIconRadius": 9,
+            "onSale": false,
+            "showCartIconColor": false,
+            "hideStore": false,
+            "spaceWidth": 108.33333333333337,
+            "parallax": true,
+            "showCartButton": true,
+            "paddingBGP": {
+                "left": 0,
+                "right": 0,
+                "top": 14.814814814814842,
+                "bottom": 0
+            },
+            "enableBottomAddToCart": false,
+            "hideTitle": false,
+            "isSnapping": false,
+            "hideEmptyProductLayout": false,
+            "showCountDown": false,
+            "showCartButtonWithQuantity": false,
+            "showHeart": false,
+            "hideEmptyProductListRating": false,
+            "imageRatio": 1.2,
+            "rows": 1,
+            "showOnlyImage": false,
+            "imageBoxfit": "contain",
+            "hPadding": 9,
+            "vPadding": 2,
+            "hidePrice": false,
+            "marginBGP": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+            },
+            "boxShadow": {
+                "x": 7,
+                "y": 9,
+                "blurRadius": 10,
+                "colorOpacity": 0.1,
+                "spreadRadius": 10
+            },
+            "image": "",
+            "showQuantity": false,
+            "layout": "threeColumn",
+            "cardDesign": "card",
+            "hMargin": 6,
+            "vMargin": 0,
+            "parallaxImageRatio": 1.2,
+            "showCartIcon": false,
+            "featured": false,
+            "showStockStatus": true,
+            "name": " طعام جاف",
+            "productListItemHeight": 125,
+            "enableAutoSliding": false,
+            "productType": false
+        }
+    ],
+    "aboutData": {
+        "id": 3,
+        "container": {
+            "height": 0.25,
+          
+            "header": {
+                "align": {
+                    "x": 0,
+                    "y": -0.8
+                },
+                "padding": {
+                    "horizontal": 0,
+                    "vertical": 0
+                },
+                "text": "من نحن",
+                "subHeader": ""
+            }
+        },
+        "description": "متجر كيتي، متجر متخصص بكافة أغذية ومستلزمات القطط في المملكة العربية السعودية، حيث نعمل من أجل سعادة كافة مربي الحيوانات الأليفة، بتوفير منتجات صحية عالية الجودة لقططهم المنزلية، لا تذهب بعيدا، فسواء كنت تبحث عن أغذية ومكافآت قطط متوازنة ولذيذة، أو إذا أردت توفير لعب وخداشات ومستلزمات قطط أخرى، ستجد كافة احتياجات حيوانك الأليف في متجر كيتي.  ",
+        "background": "#D4F1E5"
+    },
+    "privacyData": {
+        "id": 3,
+        "container": {
+            "height": 0.25,
+         
+            "header": {
+                "align": {
+                    "x": 0,
+                    "y": -0.8
+                },
+                "padding": {
+                    "horizontal": 0,
+                    "vertical": 0
+                },
+                "text": "سياسة الخصوصية",
+                "subHeader": ""
+            }
+        },
+        "description": "بيان سياسة الخصوصية هذا يوضح كيف يستخدم و يحمي متجر كيني أي معلومات يتم جمعها عند استخدام هذا الموقع. ويلتزم متجر كيتي بضمان حماية خصوصيتك ومعلوماتك. حيث سوف يطلب منك تقديم بعض المعلومات التي يمكن التعرف من خلالها على هويتك عند استخدام هذا الموقع، ولن يتم استخدام هذه المعلومات إلا وفقاً لبيان سياسة الخصوصية. علماَ أنه قد تتغير سياسة الخصوصية لمتجر كيتى من وقت لآخر عن طريق تحديث هذه الصفحة فيجبعليك مراجعة هذه الصفحة من وقت لآخر للتأكد من مناسبة هذه التغييرات",
+        "background": "#D4F1E5"
+    },
+    "smartChat": {
+        "app": "https://wa.me/966501784877",
+        "description": "WhatsApp",
+        "iconData": "Icons.home_work_outlined"
+    },
+    "Setting": {
+        "TabBarConfig": {
+            "boxShadow": {
+                "spreadRadius": 10,
+                "colorOpacity": 0.25,
+                "blurRadius": 10,
+                "x": 0,
+                "y": 0
+            },
+            "enableOnTop": false,
+            "color": null,
+            "radiusTopLeft": 0,
+            "paddingRight": 0,
+            "radiusTopRight": 0,
+            "TabBarIndicator": {
+                "strokeWidth": 0,
+                "color": "ffcc0071",
+                "horizontalPadding": 0,
+                "topRightRadius": 0,
+                "tabPosition": "top",
+                "bottomRightRadius": 9.988863169703269,
+                "bottomLeftRadius": 9.980371609191021,
+                "topLeftRadius": 0,
+                "paintingStyle": "fill",
+                "distanceFromCenter": 0,
+                "radius": 0,
+                "verticalPadding": 0,
+                "height": 0
+            },
+            "showMinimize": false,
+            "marginRight": 0,
+            "enableDivider": true,
+            "paddingBottom": 0,
+            "indicatorStyle": "material",
+            "enable": true,
+            "radiusBottomRight": 0,
+            "iconSize": 23.025228226675463,
+            "showFloatingClip": true,
+            "paddingTop": 0,
+            "isSafeArea": true,
+            "TabBarFloating": {
+                "elevation": 2.005172228538149,
+                "color": "ffcc0071",
+                "width": 50,
+                "floatingType": "rectangle",
+                "location": "startDocked",
+                "isCoverMode": false,
+                "position": 0,
+                "notchMargin": 4,
+                "radius": 50,
+                "height": 50
+            },
+            "showFloating": true,
+            "colorActiveIcon": "ff000000",
+            "colorCart": "fffe2060",
+            "radiusBottomLeft": 0,
+            "alwaysShowTabBar": false,
+            "marginLeft": 0,
+            "colorIcon": "ffcc0071",
+            "marginBottom": 0,
+            "paddingLeft": 0,
+            "marginTop": 0
+        },
+        "FontFamily": "Cairo",
+        "FontHeader": "Cairo",
+        "ProductDetail": "simpleType",
+        "useMaterial3": false,
+        "MainColor": "ffcc0071",
+        "ShowChat": true,
+        "AgeRestriction": {
+            "enable": false,
+            "alwaysShowUponOpen": true,
+            "imageUrl": "",
+            "minimumAge": 21,
+            "hintMessage": "What is your year of birth?",
+            "useLogo": true,
+            "title": "Welcome to our shop\nYou must be 21 or older to enter",
+            "deniedMessage": "You are not of legal age to use this application",
+            "backgroundImageUrl": ""
+        },
+        "ProductListLayout": "list",
+        "SmartEngagementBanner": {
+            "popup": {
+                "closePosition": "topRight",
+                "updatedTime": 1661314494281,
+                "data": {
+                    "parallax": false,
+                    "enableParallax": false,
+                    "isHorizontal": false,
+                    "marginLeft": null,
+                    "layout": "bannerImage",
+                    "fit": "fitHeight",
+                    "marginRight": null,
+                    "parallaxImageRatio": 1.2,
+                    "design": "static",
+                    "marginBottom": 10,
+                    "items": [
+                        {
+                            "image": "https://i.imgur.com/ZL1LO75.png",
+                            "padding": 0,
+                            "bannerWithProduct": false,
+                            "showSubcategory": false,
+                            "category": "22",
+                            "defaultShowProduct": false,
+                            "products": []
+                        }
+                    ],
+                    "marginTop": 10,
+                    "key": "p2oq4zc4hg",
+                    "height": 0.45
+                },
+                "enable": false,
+                "alwaysShowUponOpen": true
+            },
+            "flexible": {
+                "canClose": true,
+                "data": {
+                    "layout": "button",
+                    "marginBottom": 0,
+                    "alignment": "topCenter",
+                    "items": [
+                        {
+                            "marginRight": 0,
+                            "textFontSize": 14,
+                            "image": "https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
+                            "useMaxWidth": true,
+                            "borderRadius": 2,
+                            "width": 100,
+                            "navigator": {
+                                "coupon": "blackf",
+                                "showSubcategory": false
+                            },
+                            "height": 80,
+                            "marginLeft": 0
+                        }
+                    ],
+                    "marginTop": 0
+                },
+                "enable": false,
+                "width": 100,
+                "canDrag": true,
+                "height": 100
+            },
+            "sticky": {
+                "data": {
+                    "parallax": false,
+                    "enableParallax": false,
+                    "isHorizontal": false,
+                    "marginLeft": 10,
+                    "layout": "bannerImage",
+                    "fit": "fitWidth",
+                    "marginRight": 10,
+                    "parallaxImageRatio": 1.2,
+                    "design": "static",
+                    "marginBottom": 10,
+                    "items": [
+                        {
+                            "image": "https://i.imgur.com/LUaEM3v.jpeg",
+                            "padding": 0,
+                            "coupon": "halfprice",
+                            "bannerWithProduct": false,
+                            "showSubcategory": false,
+                            "radius": 9,
+                            "defaultShowProduct": false,
+                            "products": []
+                        }
+                    ],
+                    "marginTop": 10,
+                    "key": "ga8oe39k5t",
+                    "height": 0.2
+                },
+                "enable": false
+            }
+        },
+        "StickyHeader": false
+    },
+    "TabBar": [
+        {
+            "layout": "home",
+            "fontFamily": "MaterialIcons",
+            "visible": true,
+            "fullscreen": false,
+            "pos": 100,
+            "defaultTab": true,
+            "icon": "home_filled"
+        },
+        {
+            "layout": "category",
+            "parallaxImageRatio": 1.2,
+            "images": {
+                "gid://shopify/Collection/456820818230": {
+                    "fontFamily": "CupertinoIcons",
+                    "name": "circle_grid_3x3_fill"
+                }
+            },
+            "fontFamily": "CupertinoIcons",
+            "remapCategories": [
+            
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/453699141921"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/453699174689"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/493475889441"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/477872816417"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/493666435361"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/493474611489"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/453699371297"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/463784247585"
+                },
+                     {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/493475758369"
+                },
+                    {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/453699338529"
+                },
                   {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/453699338529"
-              },
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/453699272993"
+                },
                 {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/453699272993"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/463784280353"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/463784149281"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/495285535009"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/495285895457"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/495290417441"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836656417",
-                  "category": "gid://shopify/Collection/493474578721"
-              },
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/463784280353"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/463784149281"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/495285535009"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/495285895457"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/495290417441"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836656417",
+                    "category": "gid://shopify/Collection/493474578721"
+                },
+              
+              
+                
             
-            
+                {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339181345"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339214113"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339935009"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339836705"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493475856673"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493666500897"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339869473"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339738401"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493339771169"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836787489",
+                    "category": "gid://shopify/Collection/493475823905"
+                },
               
-          
-              {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339181345"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339214113"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339935009"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339836705"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493475856673"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493666500897"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339869473"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339738401"
-              },
-                {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493339771169"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836787489",
-                  "category": "gid://shopify/Collection/493475823905"
-              },
-            
-              
-           
-              {
-                  "parent": "gid://shopify/Collection/490836820257",
-                  "category": "gid://shopify/Collection/493339345185"
-              },
-               {
-                  "parent": "gid://shopify/Collection/490836820257",
-                  "category": "gid://shopify/Collection/493666238753"
-              },
-               {
-                  "parent": "gid://shopify/Collection/490836820257",
-                  "category": "gid://shopify/Collection/493339443489"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836820257",
-                  "category": "gid://shopify/Collection/493339410721"
-              },
-            
-              
-           
-              {
-                  "parent": "gid://shopify/Collection/490836721953",
-                  "category": "gid://shopify/Collection/493339377953"
-              },
-               {
-                  "parent": "gid://shopify/Collection/490836721953",
-                  "category": "gid://shopify/Collection/493666205985"
-              },
-               {
-                  "parent": "gid://shopify/Collection/490836721953",
-                  "category": "gid://shopify/Collection/493339672865"
-              },
-              {
-                  "parent": "gid://shopify/Collection/490836721953",
-                  "category": "gid://shopify/Collection/493339541793"
-              },
-              
-  
-  
-              
-              
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209412385"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474876838177"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/475591934241"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474876903713"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363855649"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717900065"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716065057"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715147553"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492714983713"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362938145"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362774305"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492723077409"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717998369"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774438689"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493364314401"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774471457"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717080865"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474876969249"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774504225"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363429665"
-              },
-                 {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716163361"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363691809"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492721930529"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492721864993"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717637921"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/467378569505"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/495523496225"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474877133089"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717277473"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362905377"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363069217"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363527969"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209314081"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715278625"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209183009"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209150241"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363822881"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363396897"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717310241"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715802913"
-              },
-                {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493773324577"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492721799457"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492718096673"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716294433"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493773914401"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493773259041"
-              }, {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474876805409"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209543457"
-              },
-               {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209215777"
-              }, 
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493773291809"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363101985"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492721996065"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492722127137"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717867297"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716261665"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363265825"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362970913"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362872609"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362839841"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209346849"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717146401"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474877067553"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717965601"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717932833"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209281313"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/464209445153"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/467378733345"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715213089"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715540769"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492715868449"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716097825"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716327201"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492716949793"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492717670689"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492718129441"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492721963297"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/492722258209"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493362741537"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363364129"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363462433"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493363495201"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774307617"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774340385"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774405921"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/493774536993"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474877100321"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/474876608801"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/495755395361"
-              },
-              {
-                  "parent": "gid://shopify/Collection/473210716449",
-                  "category": "gid://shopify/Collection/475591999777"
-              }
+                
              
+                {
+                    "parent": "gid://shopify/Collection/490836820257",
+                    "category": "gid://shopify/Collection/493339345185"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/490836820257",
+                    "category": "gid://shopify/Collection/493666238753"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/490836820257",
+                    "category": "gid://shopify/Collection/493339443489"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836820257",
+                    "category": "gid://shopify/Collection/493339410721"
+                },
               
-              
-              
-              
-              
+                
              
-          
-          ],
-          "fullscreen": false,
-          "pos": 200,
-          "parallax": true,
-          "defaultTab": false,
-          "icon": "cube_fill",
-          "categoryLayout": "card"
-      },
-      {
-          "layout": "cart",
-          "fontFamily": "MaterialIcons",
-          "visible": true,
-          "fullscreen": false,
-          "pos": 300,
-          "defaultTab": false,
-          "icon": "shopping_cart_rounded"
-      },
-      {
-          "layout": "profile",
-          "settings": [
-              "order",
-              "notifications",
-              "wishlist",
-              "language",
-              "rating",
-              "about",
-              "privacy"
-          ],
-          "fontFamily": "MaterialIcons",
-          "visible": true,
-          "fullscreen": false,
-          "pos": 400,
-          "background": "https://trello.com/1/cards/63587806a57fae002ab4b20f/attachments/64f3a7334ab731221b9a6069/download/web_2.webp",
-          "defaultTab": false,
-          "icon": "person"
-      }
-  ],
-  "Drawer": {
-      "filter": 0,
-      "logoConfig": {
-          "marginRight": 0,
-          "boxFit": "contain",
-          "marginBottom": 10,
-          "marginTop": 60,
-          "height": 38,
-          "marginLeft": 5
-      },
-      "enable": false,
-      "logo": "assets/images/logo.png",
-      "subDrawerItem": {
-          "button-21ct7h9hyz": {
-              "buttonAlignment": "centerLeft",
-              "buttons": [
+                {
+                    "parent": "gid://shopify/Collection/490836721953",
+                    "category": "gid://shopify/Collection/493339377953"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/490836721953",
+                    "category": "gid://shopify/Collection/493666205985"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/490836721953",
+                    "category": "gid://shopify/Collection/493339672865"
+                },
+                {
+                    "parent": "gid://shopify/Collection/490836721953",
+                    "category": "gid://shopify/Collection/493339541793"
+                },
+                
+    
+    
+                
+                
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209412385"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474876838177"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/475591934241"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474876903713"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363855649"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717900065"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716065057"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715147553"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492714983713"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362938145"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362774305"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492723077409"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717998369"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774438689"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493364314401"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774471457"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717080865"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474876969249"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774504225"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363429665"
+                },
+                   {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716163361"
+                },
                   {
-                      "textFontSize": 14,
-                      "marginRight": 5,
-                      "image": "https://i.imgur.com/zFA6wKx.png",
-                      "width": 40,
-                      "navigator": {
-                          "screen": "wishlist",
-                          "showSubcategory": false
-                      },
-                      "radius": 0,
-                      "marginLeft": 5,
-                      "height": 40
-                  },
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363691809"
+                },
                   {
-                      "textFontSize": 14,
-                      "marginRight": 5,
-                      "width": 100,
-                      "navigator": {
-                          "screen": "wishlist",
-                          "showSubcategory": false
-                      },
-                      "text": "Wishlist",
-                      "radius": 0,
-                      "marginLeft": 5,
-                      "height": 40
-                  }
-              ]
-          }
-      },
-      "safeArea": false,
-      "items": [
-          {
-              "show": true,
-              "type": "home"
-          },
-          {
-              "show": true,
-              "type": "blog"
-          },
-          {
-              "show": true,
-              "type": "login"
-          },
-          {
-              "show": true,
-              "type": "category"
-          },
-          {
-              "show": false,
-              "type": "categories"
-          },
-          {
-              "show": false,
-              "type": "cart"
-          },
-          {
-              "show": false,
-              "type": "profile"
-          }
-      ],
-      "key": "hsq0cv7ulj"
-  },
-  "AppBar": {
-      "elevation": 0,
-      "pinned": true,
-      "showOnScreens": [
-          "home"
-      ],
-      "enable": false,
-      "floating": true,
-      "alwaysShowAppBar": false,
-      "expandedItems": [],
-      "items": [
-          {
-              "spacingText": 3,
-              "paddingRight": 0,
-              "icon": "person",
-              "type": "avatar",
-              "marginRight": 4,
-              "avatarRadius": 100,
-              "headerFontWeight": "400",
-              "fontFamily": "CupertinoIcons",
-              "paddingBottom": 0,
-              "headerFontSize": 16,
-              "pos": 100,
-              "action": "none",
-              "iconSize": 24,
-              "paddingTop": 0,
-              "radius": 100,
-              "fontWeight": "400",
-              "key": "l1ogdx2yzi",
-              "backgroundColor": "ff609062",
-              "headerTextOpacity": 0.5,
-              "marginLeft": 10,
-              "size": 44,
-              "iconColor": "ffffffff",
-              "textOpacity": 0.5,
-              "fontSize": 16,
-              "marginBottom": 4,
-              "alignment": "center",
-              "paddingLeft": 0,
-              "marginTop": 4
-          },
-          {
-              "headerTextColor": "ff000000",
-              "headerText": "اهلا بكم في ",
-              "spacingText": 4,
-              "paddingRight": 4,
-              "icon": "person",
-              "type": "welcome_text",
-              "title": "مرحبا {name}",
-              "marginRight": 4,
-              "avatarRadius": 100,
-              "headerFontWeight": "500",
-              "fontFamily": "CupertinoIcons",
-              "paddingBottom": 4,
-              "headerFontSize": 18,
-              "pos": 200,
-              "action": "none",
-              "iconSize": 24,
-              "paddingTop": 4,
-              "radius": 24,
-              "fontWeight": "400",
-              "key": "bt2de7kkzh",
-              "headerTextOpacity": 1,
-              "textColor": "ff000000",
-              "marginLeft": 4,
-              "size": 44,
-              "textOpacity": 1,
-              "fontSize": 16,
-              "marginBottom": 4,
-              "alignment": "centerRight",
-              "paddingLeft": 4,
-              "marginTop": 4
-          },
-          {
-              "spacingText": 3,
-              "paddingRight": 4,
-              "icon": "bell",
-              "type": "icon",
-              "marginRight": 4,
-              "avatarRadius": 100,
-              "headerFontWeight": "400",
-              "fontFamily": "CupertinoIcons",
-              "paddingBottom": 4,
-              "headerFontSize": 16,
-              "pos": 400,
-              "action": "notification",
-              "iconSize": 24,
-              "paddingTop": 4,
-              "radius": 24,
-              "fontWeight": "400",
-              "key": "gqhk6m5bgo",
-              "headerTextOpacity": 0.5,
-              "marginLeft": 4,
-              "size": 44,
-              "textOpacity": 0.5,
-              "fontSize": 16,
-              "marginBottom": 4,
-              "alignment": "center",
-              "paddingLeft": 4,
-              "marginTop": 4
-          }
-      ],
-      "snap": true
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492721930529"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492721864993"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717637921"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/467378569505"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/495523496225"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474877133089"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717277473"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362905377"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363069217"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363527969"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209314081"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715278625"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209183009"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209150241"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363822881"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363396897"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717310241"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715802913"
+                },
+                  {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493773324577"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492721799457"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492718096673"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716294433"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493773914401"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493773259041"
+                }, {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474876805409"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209543457"
+                },
+                 {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209215777"
+                }, 
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493773291809"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363101985"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492721996065"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492722127137"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717867297"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716261665"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363265825"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362970913"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362872609"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362839841"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209346849"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717146401"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474877067553"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717965601"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717932833"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209281313"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/464209445153"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/467378733345"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715213089"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715540769"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492715868449"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716097825"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716327201"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492716949793"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492717670689"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492718129441"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492721963297"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/492722258209"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493362741537"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363364129"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363462433"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493363495201"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774307617"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774340385"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774405921"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/493774536993"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474877100321"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/474876608801"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/495755395361"
+                },
+                {
+                    "parent": "gid://shopify/Collection/473210716449",
+                    "category": "gid://shopify/Collection/475591999777"
+                }
+               
+                
+                
+                
+                
+                
+               
+            
+            ],
+            "fullscreen": false,
+            "pos": 200,
+            "parallax": true,
+            "defaultTab": false,
+            "icon": "cube_fill",
+            "categoryLayout": "card"
+        },
+        {
+            "layout": "cart",
+            "fontFamily": "MaterialIcons",
+            "visible": true,
+            "fullscreen": false,
+            "pos": 300,
+            "defaultTab": false,
+            "icon": "shopping_cart_rounded"
+        },
+        {
+            "layout": "profile",
+            "settings": [
+                "order",
+                "notifications",
+                "wishlist",
+                "language",
+                "rating",
+                "about",
+                "privacy"
+            ],
+            "fontFamily": "MaterialIcons",
+            "visible": true,
+            "fullscreen": false,
+            "pos": 400,
+            "background": "https://trello.com/1/cards/63587806a57fae002ab4b20f/attachments/64f3a7334ab731221b9a6069/download/web_2.webp",
+            "defaultTab": false,
+            "icon": "person"
+        }
+    ],
+    "Drawer": {
+        "filter": 0,
+        "logoConfig": {
+            "marginRight": 0,
+            "boxFit": "contain",
+            "marginBottom": 10,
+            "marginTop": 60,
+            "height": 38,
+            "marginLeft": 5
+        },
+        "enable": false,
+        "logo": "assets/images/logo.png",
+        "subDrawerItem": {
+            "button-21ct7h9hyz": {
+                "buttonAlignment": "centerLeft",
+                "buttons": [
+                    {
+                        "textFontSize": 14,
+                        "marginRight": 5,
+                        "image": "https://i.imgur.com/zFA6wKx.png",
+                        "width": 40,
+                        "navigator": {
+                            "screen": "wishlist",
+                            "showSubcategory": false
+                        },
+                        "radius": 0,
+                        "marginLeft": 5,
+                        "height": 40
+                    },
+                    {
+                        "textFontSize": 14,
+                        "marginRight": 5,
+                        "width": 100,
+                        "navigator": {
+                            "screen": "wishlist",
+                            "showSubcategory": false
+                        },
+                        "text": "Wishlist",
+                        "radius": 0,
+                        "marginLeft": 5,
+                        "height": 40
+                    }
+                ]
+            }
+        },
+        "safeArea": false,
+        "items": [
+            {
+                "show": true,
+                "type": "home"
+            },
+            {
+                "show": true,
+                "type": "blog"
+            },
+            {
+                "show": true,
+                "type": "login"
+            },
+            {
+                "show": true,
+                "type": "category"
+            },
+            {
+                "show": false,
+                "type": "categories"
+            },
+            {
+                "show": false,
+                "type": "cart"
+            },
+            {
+                "show": false,
+                "type": "profile"
+            }
+        ],
+        "key": "hsq0cv7ulj"
+    },
+    "AppBar": {
+        "elevation": 0,
+        "pinned": true,
+        "showOnScreens": [
+            "home"
+        ],
+        "enable": false,
+        "floating": true,
+        "alwaysShowAppBar": false,
+        "expandedItems": [],
+        "items": [
+            {
+                "spacingText": 3,
+                "paddingRight": 0,
+                "icon": "person",
+                "type": "avatar",
+                "marginRight": 4,
+                "avatarRadius": 100,
+                "headerFontWeight": "400",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 0,
+                "headerFontSize": 16,
+                "pos": 100,
+                "action": "none",
+                "iconSize": 24,
+                "paddingTop": 0,
+                "radius": 100,
+                "fontWeight": "400",
+                "key": "l1ogdx2yzi",
+                "backgroundColor": "ff609062",
+                "headerTextOpacity": 0.5,
+                "marginLeft": 10,
+                "size": 44,
+                "iconColor": "ffffffff",
+                "textOpacity": 0.5,
+                "fontSize": 16,
+                "marginBottom": 4,
+                "alignment": "center",
+                "paddingLeft": 0,
+                "marginTop": 4
+            },
+            {
+                "headerTextColor": "ff000000",
+                "headerText": "اهلا بكم في ",
+                "spacingText": 4,
+                "paddingRight": 4,
+                "icon": "person",
+                "type": "welcome_text",
+                "title": "مرحبا {name}",
+                "marginRight": 4,
+                "avatarRadius": 100,
+                "headerFontWeight": "500",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 4,
+                "headerFontSize": 18,
+                "pos": 200,
+                "action": "none",
+                "iconSize": 24,
+                "paddingTop": 4,
+                "radius": 24,
+                "fontWeight": "400",
+                "key": "bt2de7kkzh",
+                "headerTextOpacity": 1,
+                "textColor": "ff000000",
+                "marginLeft": 4,
+                "size": 44,
+                "textOpacity": 1,
+                "fontSize": 16,
+                "marginBottom": 4,
+                "alignment": "centerRight",
+                "paddingLeft": 4,
+                "marginTop": 4
+            },
+            {
+                "spacingText": 3,
+                "paddingRight": 4,
+                "icon": "bell",
+                "type": "icon",
+                "marginRight": 4,
+                "avatarRadius": 100,
+                "headerFontWeight": "400",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 4,
+                "headerFontSize": 16,
+                "pos": 400,
+                "action": "notification",
+                "iconSize": 24,
+                "paddingTop": 4,
+                "radius": 24,
+                "fontWeight": "400",
+                "key": "gqhk6m5bgo",
+                "headerTextOpacity": 0.5,
+                "marginLeft": 4,
+                "size": 44,
+                "textOpacity": 0.5,
+                "fontSize": 16,
+                "marginBottom": 4,
+                "alignment": "center",
+                "paddingLeft": 4,
+                "marginTop": 4
+            }
+        ],
+        "snap": true
+    }
   }
-}

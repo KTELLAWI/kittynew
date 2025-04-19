@@ -296,6 +296,16 @@ flutter_icons:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: SaudiRiyal
+      fonts:
+        - asset: assets/fonts/saudi_riyal.ttf
+    - family: riyal1
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular-riyal.ttf
+    - family: riyal2
+      fonts:
+        - asset: assets/fonts/GEDINKUM-BOLD-riyal.ttf       
   assets:
     - lib/config/
     - lib/config/states/

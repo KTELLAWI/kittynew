@@ -102,39 +102,41 @@ class ProductPrice extends StatelessWidget {
     const SizedBox(height: 10),
   showBadge ?
   Container(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(3.0),
       decoration: BoxDecoration(
-        border: Border.all(width: 1, color: Colors.grey),
+        border: Border.all(width: 0.80, color: Colors.grey.withValueOpacity(0.5)),
         borderRadius: BorderRadius.circular(8.0),
       ),
-      child: Row(
+      child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+
         children: [
-        Flexible(
-           child: 
+        // Expanded(
+        //    child: 
             Text(
-              "قسم فاتورتك حتى 4 دفعات شهرية بقيمة $priceString ر.س بدون فوائد بدون أية رسوم تأخير",
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyMedium,
+              "قسم فاتورتك حتى 4 دفعات شهرية بقيمة $priceString  بدون فوائد بدون أية رسوم تأخير",
+              // textAlign: TextAlign.start,
+              style: Theme.of(context).textTheme.labelSmall?.copyWith(fontWeight: FontWeight.w800, fontSize: 11.0),
             ),
-          ),
-          const SizedBox(width: 8),
+        //   ),
+          const SizedBox(height: 2),
           SizedBox(
-  width: 120,
-       child:   Column(
-          mainAxisSize: MainAxisSize.min,
+ 
+       child:   Row(
+          // mainAxisSize: MainAxisSize.min,
 
             children: [
               Image.asset(
                 'assets/images/tammars.png',
-                width: 80,
-                height: 40,
+                width: 50,
+                height: 25,
                 fit: BoxFit.fill,
               ),
-              const SizedBox(height: 1),
+              const SizedBox(width: 2),
               Image.asset(
                 'assets/images/tabbi.png', // Optional: Add another local image here too
-                width: 80,
-                height: 40,
+                width: 50,
+                height: 25,
                 fit: BoxFit.fill,
               ),
             ],

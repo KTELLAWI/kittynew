@@ -176,9 +176,11 @@ class PriceTools {
             formatCurrency.format(double.parse(price.toString()) * quantity);
       }
 
-      return defaultCurrency.symbolBeforeTheNumber
-          ? defaultCurrency.symbol + number
-          : number + defaultCurrency.symbol;
+      return 
+      // defaultCurrency.symbolBeforeTheNumber
+      //     ? defaultCurrency.symbol + number
+      //     : 
+          number + defaultCurrency.symbol;
     } catch (err, trace) {
       printError(err, trace);
       return defaultCurrency.symbolBeforeTheNumber

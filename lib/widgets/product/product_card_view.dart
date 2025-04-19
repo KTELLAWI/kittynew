@@ -178,6 +178,10 @@ class _ProductCardState extends State<ProductCard> with ActionButtonMixin {
                 borderRadius:
                     BorderRadius.circular(widget.config.borderRadius ?? 3),
                 color: Theme.of(context).cardColor,
+                  border: Border.all(
+      color: Colors.grey.withValueOpacity(0.50), // or Theme.of(context).dividerColor or your custom color
+      width: 0.70, // anything > 0 will make it visible
+    ),
                 boxShadow: [
                   if (widget.config.boxShadow != null)
                     BoxShadow(
