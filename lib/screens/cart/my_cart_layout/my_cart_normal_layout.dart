@@ -114,9 +114,9 @@ class _MyCartNormalLayoutState extends State<MyCartNormalLayout>
                           backgroundButton.getColorBasedOnBackground;
                       final style = TextStyle(color: colorBody);
                       final style1 = TextStyle(
-  color: colorBody,
-  fontFamily: 'Cairo',
+  color: Colors.white,
   fontSize: 14,
+  fontFamily:"SaudiRiyal"
   fontWeight: FontWeight.w600,
 );
 
