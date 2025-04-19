@@ -119,22 +119,23 @@ class ImageTools {
     String? fit, {
     BoxFit? defaultValue,
   }) {
-    switch (fit) {
-      case 'contain':
-        return BoxFit.contain;
-      case 'fill':
-        return BoxFit.fill;
-      case 'fitHeight':
-        return BoxFit.fitHeight;
-      case 'fitWidth':
-        return BoxFit.fitWidth;
-      case 'scaleDown':
-        return BoxFit.scaleDown;
-      case 'cover':
-        return BoxFit.cover;
-      default:
-        return defaultValue ?? BoxFit.cover;
-    }
+    // switch (fit) {
+    //   case 'contain':
+    //     return BoxFit.contain;
+    //   case 'fill':
+    //     return BoxFit.fill;
+    //   case 'fitHeight':
+    //     return BoxFit.fitHeight;
+    //   case 'fitWidth':
+    //     return BoxFit.fitWidth;
+    //   case 'scaleDown':
+    //     return BoxFit.scaleDown;
+    //   case 'cover':
+    //     return BoxFit.cover;
+    //   default:
+    //     return defaultValue ?? 
+        return  BoxFit.contain;
+    //}
   }
 
   static Future<file.File> writeToFile(Uint8List? data,

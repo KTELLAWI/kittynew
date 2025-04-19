@@ -102,7 +102,7 @@ class ProductPrice extends StatelessWidget {
     const SizedBox(height: 10),
   showBadge ?
   Container(
-      padding: const EdgeInsets.all(3.0),
+      padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
         border: Border.all(width: 0.80, color: Colors.grey.withValueOpacity(0.5)),
         borderRadius: BorderRadius.circular(8.0),

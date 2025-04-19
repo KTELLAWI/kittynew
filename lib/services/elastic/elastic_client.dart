@@ -13,7 +13,7 @@ const _baseApiURL =
     'https://my-deployment-5747b7.es.us-central1.gcp.cloud.es.io';
 const _baseApiKey =
     'bG5ET2Fvc0J1X2NWM2ZRNkhBeXI6VFp2RGd6dUhUaHl2dGNsb3R5UFM0Zw==';
-const _kWebProxy = 'https://cors.mstore.io/';
+const _kWebProxy = '';
 
 class ElasticClient {
   static final String _apiURL = kBoostEngineConfig.api ?? _baseApiURL;
