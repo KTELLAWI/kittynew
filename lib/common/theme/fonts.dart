@@ -8,9 +8,9 @@ TextTheme buildTextTheme(
   String? language, [
   String fontFamily = 'Roboto',
   String fontHeader = 'Raleway',
-  String currencyFont= 'SaudiRiyal',
-  String currencyFont1= 'riyal1',
-  String currencyFont2= 'riyal2',
+  // String currencyFont= 'SaudiRiyal',
+  // String currencyFont1= 'riyal1',
+  // String currencyFont2= 'riyal2',
 
 ]) {
   return base
@@ -91,7 +91,7 @@ TextTheme buildTextTheme(
               .copyWith(fontWeight: FontWeight.w400, fontSize: 12.0),
         ),
         labelSmall: ThemeHelper.getFont(
-          currencyFont,
+          fontFamily,
           textStyle: base.labelSmall!
               .copyWith(fontWeight: FontWeight.w400, fontSize: 11.0),
         ),
@@ -107,12 +107,12 @@ TextTheme buildTextTheme(
       );
 }
 
-extension CustomTextStyles on TextTheme {
-  TextStyle get currency => ThemeHelper.getFont(
-        'SaudiRiyal',
-        textStyle: labelSmall!.copyWith(
-          fontWeight: FontWeight.w200,
-          fontSize: 11.0,
-        ),
-      );
-}
+// extension CustomTextStyles on TextTheme {
+//   TextStyle get currency => ThemeHelper.getFont(
+//         'SaudiRiyal',
+//         textStyle: labelSmall!.copyWith(
+//           fontWeight: FontWeight.w200,
+//           fontSize: 11.0,
+//         ),
+//       );
+// }
